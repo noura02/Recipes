@@ -17,7 +17,7 @@ function displayRecipes() {
     recipesContainer = '';
     for (var i = 0; i < recipesArray.length; i++) {
         recipesContainer += `
-                              <div class="col-md-3 my-4">
+                              <div class="col-lg-3 my-4">
                                 <div>
                                <img src="${recipesArray[i].image_url}" class="img-height w-100" >
                                <h6 class='mt-3 '>${recipesArray[i].title}</h6>
