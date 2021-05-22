@@ -17,11 +17,11 @@ function displayRecipes() {
     recipesContainer = '';
     for (var i = 0; i < recipesArray.length; i++) {
         recipesContainer += `
-                              <div class="col-lg-3 my-4">
+                              <div class="col-md-3 my-4">
                                 <div>
                                <img src="${recipesArray[i].image_url}" class="img-height w-100" >
                                <h6 class='mt-3 '>${recipesArray[i].title}</h6>
-                               <a href='${recipesArray[i].source_url}' class='btn btn-info ' target='_blank'>source</a>
+                               <a href='${recipesArray[i].source_url}' class='btn btn-info mt-2' target='_blank'>source</a>
                                 <a href='details.html?rid=${recipesArray[i].recipe_id}' class='btn btn-warning mt-2' target='_blank'>details</a>
                                  </div>
                                 </div>`
