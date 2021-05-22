@@ -22,7 +22,7 @@ function displayRecipes() {
                                <img src="${recipesArray[i].image_url}" class="img-height w-100" >
                                <h6 class='mt-3 '>${recipesArray[i].title}</h6>
                                <a href='${recipesArray[i].source_url}' class='btn btn-info ' target='_blank'>source</a>
-                                <a href='details.html?rid=${recipesArray[i].recipe_id}' class='btn btn-warning ' target='_blank'>details</a>
+                                <a href='details.html?rid=${recipesArray[i].recipe_id}' class='btn btn-warning mt-2' target='_blank'>details</a>
                                  </div>
                                 </div>`
         document.getElementById('recipesRow').innerHTML = recipesContainer
